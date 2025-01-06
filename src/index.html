@@ -7,37 +7,38 @@
     <link rel="shortcut icon" href="/images/movie_18201277.png" type="image/x-icon">
     <link href="./output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="flex flex-col">
-        <nav class="bg-black text-white p-3">
+        <nav class="bg-black text-white text-center p-3">
             <h1 class="text-3xl font-bold">Movie Mania</h1>
         </nav>
         <div class="flex justify-around p-8 text-xl">
-            <div class="bg-lime-200 p-2 border-solid rounded-md" id="tMovie" >
-                
+            <div class="bg-lime-200 p-2 border-solid rounded-md text-center" id="tMovie" >
+                <h4 class="my-3">Total Movie</h4>
             </div>
-            <div class="bg-lime-200 p-2 border-solid rounded-md" id="tAvgRating">
-               
+            <div class="bg-lime-200 p-2 border-solid rounded-md text-center" id="tAvgRating">
+                <h4 class="my-3">Avg Rating</h4>
             </div>
-            <div class="bg-lime-200 p-2 border-solid rounded-md" id="tReview">
-                
+            <div class="bg-lime-200 p-2 border-solid rounded-md text-center" id="tReview">
+                <h4 class="my-3">Review</h4>
             </div>
         </div>
-        <div class="p-6" id="movieList">
+        <div class="p-6 flex flex-col justify-center text-center " id="movieList">
             <h2 class="text-2xl">MOVIE REVIEWS</h2>
-            <ul class="my-2">
-                <li class="bg-lime-200 p-2 border-solid rounded-md w-1/4">
-                    <p class="text-xl mb-2">Avatar - 3.5</p>
-                    <p class="mb-2 mx-2">Text-1</p>
-                    <p class="mb-2 mx-2">Text-2</p>
-                </li>
-                
-                <li class="bg-lime-200 p-2 border-solid rounded-md my-2 w-1/4">
-                    <p class="text-xl mb-2">Avatar - 3.5</p>
-                    <p class="mb-2 mx-2">Text-1</p>
-                    <p class="mb-2 mx-2">Text-2</p>
-                </li>
+            <ul class="my-2 flex-grow ">
+               
             </ul>
         </div>
 
